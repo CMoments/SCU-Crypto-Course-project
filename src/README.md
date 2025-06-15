@@ -2,11 +2,11 @@
 
 ### 密钥传递阶段
 
-![示意图](C:\Users\ASUS\Desktop\SCU-Crypto\README.assets\示意图.png)
+![示意图](./README.assets/示意图.png)
 
 ### 消息传递阶段
 
-![Snipaste_2025-06-12_10-19-03](C:\Users\ASUS\Desktop\SCU-Crypto\README.assets\Snipaste_2025-06-12_10-19-03.png)
+![Snipaste_2025-06-12_10-19-03](./README.assets/Snipaste_2025-06-12_10-19-03.png)
 
 ---
 
@@ -107,4 +107,3 @@ project/
 └─ Pub_yi.txt
 ```
 
-如需具体每个文件的代码模板或tongsuopy的调用示例，请告知！**
