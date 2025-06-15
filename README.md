@@ -62,7 +62,6 @@
   make
   sudo make install
   ```
-  
   ```python
   from ctypes import cdll, c_char_p, c_int, c_ubyte, POINTER, Structure, byref
   # 加载 GmSSL 动态链接库
@@ -70,10 +69,9 @@
   # 定义函数参数类型
 libgmssl.sm3_hash.argtypes = (c_char_p, c_int)
   libgmssl.sm3_hash.restype = c_ubyte
-  ……
   ```
-  
   两种方法的主要区别在于安装和使用方式，以及对系统环境的依赖程度。通过 pip 安装的方式更简便，适合大多数开发场景；而通过 ctypes 调用的方式则提供了更高的灵活性和控制度，但需要更多的配置工作。
+
   
   **如果你需要快速开始开发并且不想处理底层的库配置，那么通过 pip 安装 `gmssl-python` 可能是更好的选择。如果你需要更细粒度的控制或者想要优化性能，那么通过 ctypes 调用本地库可能是更合适的选择。**
   
@@ -89,7 +87,7 @@ libgmssl.sm3_hash.argtypes = (c_char_p, c_int)
 
 帮助文档：[https://www.yuque.com/tsdoc/ts](https://www.yuque.com/tsdoc/ts)
 
-![image-20250611234437930](C:\Users\ASUS\Desktop\SCU-Crypto\README.assets\image-20250611234437930.png)
+![image-20250611234437930](./README.assets/image-20250611234437930.png)
 
 ## 国密算法
 
