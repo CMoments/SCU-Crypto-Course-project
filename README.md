@@ -67,7 +67,7 @@
   # 加载 GmSSL 动态链接库
   libgmssl = cdll.LoadLibrary('/usr/local/lib/libgmssl.so')
   # 定义函数参数类型
-libgmssl.sm3_hash.argtypes = (c_char_p, c_int)
+  libgmssl.sm3_hash.argtypes = (c_char_p, c_int)
   libgmssl.sm3_hash.restype = c_ubyte
   ```
 
